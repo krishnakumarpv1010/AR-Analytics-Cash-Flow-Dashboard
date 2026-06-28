@@ -1,155 +1,163 @@
 # AR-Analytics-Cash-Flow-Dashboard
 This project analyzes Employee Expense Claim Form (ECF) data using Microsoft Power BI.
-# ECF Payment Trends & Analysis | Power BI Dashboard
+# AR Analytics & Cash Flow Insights | Power BI Dashboard
 
 ## Project Overview
 
-This project analyzes Employee Expense Claim Form (ECF) data using Microsoft Power BI.
+This project presents an interactive Accounts Receivable (AR) Analytics dashboard developed using Microsoft Power BI.
 
-The dashboard provides actionable insights into:
+The dashboard provides comprehensive insights into:
 
-- Employee expense behavior
-- Payment processing efficiency
-- Approval performance
-- Regional spending trends
-- Executive financial insights
-- Expense optimization recommendations
+- Accounts Receivable performance
+- Billing and collections
+- Aging analysis
+- Cash flow monitoring
+- Client payment behavior
+- Credit risk assessment
+- Collection efficiency
 
-The report enables organizations to monitor reimbursements, identify high spenders, analyze payment methods, and improve financial decision-making.
+The solution enables finance teams to monitor outstanding invoices, identify overdue payments, optimize collections, and improve cash flow through data-driven decision-making.
 
 ---
 
 ## Business Problem
 
-Organizations process hundreds of employee expense claims every month.
+Organizations often struggle with:
 
-Without proper analytics it becomes difficult to:
+- High outstanding receivables
+- Delayed customer payments
+- Poor cash flow visibility
+- Inefficient collection processes
+- Increasing credit risk
 
-- Monitor total expenses
-- Identify pending reimbursements
-- Track approval efficiency
-- Analyze regional spending
-- Detect high expense categories
-- Improve processing time
-
-This dashboard solves these challenges using interactive Power BI visualizations.
+This dashboard helps management monitor financial performance and prioritize recovery efforts.
 
 ---
 
 ## Dashboard Pages
 
-### 1. Employee Expense Insights
+### 1. Overview & Financial Summary
 
-Features:
+Features
 
-- Total Expense Submitted
-- Processed Amount
-- Pending Amount
-- Approval Rate
-- Transaction Count by Resource Location
-- Payment Method Analysis
-- Expense Category Analysis
-
----
-
-### 2. Executive Financial Insights
-
-Provides:
-
-- Executive KPI Cards
-- Top 10 High Spenders
-- Expense by Reasons
-- Payment Distribution
-- Monthly Processed vs Pending Analysis
+- Total Planned Billing
+- Actual Billed Amount
+- Total Collected Amount
+- Outstanding Amount
+- Collection Efficiency
+- Credit Note Analysis
+- Aging Bucket Analysis
+- Monthly Billing vs Collection Trend
 
 ---
 
-### 3. Growth & Regional Pulse
+### 2. Leadership Impact Dashboard
 
-Includes:
+Includes
 
-- Expense Trend by Month
-- Daily Payment Trend
-- Regional Expense Map
-- Resource Location Analysis
-- Average Processing Time
-
----
-
-### 4. Final Insights & Recommendations
-
-Key business insights and recommendations for:
-
-- Workflow optimization
-- Cost reduction
-- Budget allocation
-- Approval efficiency
+- Top Project Managers by Revenue
+- Collection Efficiency by Project Manager
+- Outstanding Amount Analysis
+- Project Distribution
+- Revenue Performance
 
 ---
 
-## KPI Used
+### 3. Departmental Dynamics
 
-- Total Expense Submitted
-- Processed Amount
-- Pending Amount
-- Approval Rate
-- Average Processing Time
-- Employee Count
-- Managing Director Count
-- Senior Director Count
+Shows
+
+- Department-wise Billing
+- Collection Efficiency
+- Average Payment Days
+- Department Performance
+- Department Distribution
+
+---
+
+### 4. Client Revenue & Risk Insights
+
+Provides
+
+- Top Revenue Clients
+- Client Outstanding Analysis
+- Aging Bucket Classification
+- Credit Risk Categories
+- Credit Note Analysis
+
+---
+
+### 5. Final Insights
+
+Business observations and strategic recommendations for improving collection efficiency and reducing overdue payments.
+
+---
+
+## KPIs
+
+- Total Planned Billing
+- Actual Billed Amount
+- Total Collected Amount
+- Outstanding Amount
+- Collection Efficiency
+- Total Credit Note Amount
+- Invoice Count
+- Project Count
+- Client Count
+- Average Payment Days
 
 ---
 
 ## Power BI Features Used
 
 - DAX Measures
+- Power Query
 - KPI Cards
 - Bar Charts
-- Line Charts
+- Pie Charts
 - Donut Charts
+- Waterfall Chart
 - Matrix Tables
-- Bing Map
-- Slicers
-- Drillthrough Navigation
+- Scatter Charts
+- Interactive Slicers
+- Drillthrough
 - Bookmarks
-- Interactive Filters
+
+---
+
+## Business Insights
+
+- Collection efficiency exceeds 80%, indicating a strong recovery rate.
+- A limited number of clients contribute significantly to outstanding receivables.
+- Aging analysis highlights overdue invoices requiring immediate action.
+- Credit note trends help evaluate billing adjustments.
+- Client risk categorization enables proactive collection strategies.
+
+---
+
+## Recommendations
+
+- Automate payment reminders.
+- Prioritize high-risk overdue accounts.
+- Introduce early payment incentives.
+- Strengthen credit policies.
+- Use predictive analytics to improve cash flow forecasting.
 
 ---
 
 ## Tools Used
 
 - Microsoft Power BI
-- Power Query
 - DAX
-- Excel Dataset
-
----
-
-## Business Insights
-
-- 91% approval rate indicates an efficient approval process.
-- Payroll and Bank Transfer are the dominant reimbursement methods.
-- A small group of employees contributes significantly to total expenses.
-- Business Travel represents the highest expense category.
-- Sweden records the highest transaction volume among all locations.
-
----
-
-## Recommendations
-
-- Automate approval workflows.
-- Reduce reimbursement delays.
-- Monitor high spenders.
-- Optimize budget allocation.
-- Improve regional expense monitoring.
+- Power Query
+- Microsoft Excel
 
 ---
 
 ## Dashboard Preview
 
-<img width="1167" height="659" alt="image" src="https://github.com/user-attachments/assets/c2a12717-cbf4-4459-bd7f-58f136e1a395" />
-<img width="1168" height="658" alt="image" src="https://github.com/user-attachments/assets/d8e36685-354f-41f4-8327-e9ab7ff5bd9a" />
-
+<img width="1167" height="659" alt="image" src="https://github.com/user-attachments/assets/f590314a-3f2a-4bb5-9190-fbefa738f0b4" />
+<img width="1168" height="658" alt="image" src="https://github.com/user-attachments/assets/e29a4c1a-0c91-4074-a3a7-37e70bcf888d" />
 
 
 ---
@@ -158,4 +166,4 @@ Key business insights and recommendations for:
 
 Krishna Kumar P V
 
-Business Analyst | Power BI Developer | Data Analyst
+Business Analyst | Data Analyst | Power BI Developer
